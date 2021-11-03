@@ -1,13 +1,31 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>replit</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    Hello world
-    <script src="script.js"></script>
-  </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSTikTok</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="progress"><div class="completed"></div></div>
+        <video id="vid" loop onclick="playpause()" >
+            <source src="videos/1.mp4" type="video/mp4">
+        </video>
+        <div class="mat">
+            <div id="title">Here is the Title -> </div>
+        </div>
+        <div class="controls">
+            <span class="play" onclick="playpause()" >  </span>
+            <span class="prev" onclick="back()"> < </span>
+            <span class="next" onclick="initialise()"> > </span>
+        </div>
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
 </html>

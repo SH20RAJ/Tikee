@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  background: chartreuse;
+}
+
+video {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 2, 3);
+}
+.controls {
+  padding: 0;
+  margin: 0ch;
+}
+.next,.prev {
+  position: absolute;
+  color: aquamarine;
+  font-size: 40px;
+  font-weight: bolder;
+  background: yellow solid;
+  right: 2px;
+}
+.next {
+  bottom: 40%;
+  
+}
+.prev {
+    bottom: 60%;
+}
+.play {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  bottom: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: transparent;
+}
+#title {
+    position: absolute;
+    bottom: 60px;
+    padding: 4px;
+    margin-left: 10px;
+    font-size: larger;
+    color: aqua;
+    background: rgba(0, 0, 0, 0.856);
+}
+
+#progress {
+    background: cadetblue;
+    height: 5px;
+}
+#progress .completed {
+    background-color: aqua;
+    height: 100%;
+}
