@@ -1,7 +1,7 @@
 # Tikee
 ## Shorts Video Sharing, Viewing Platform Using pure JavaScript and Google sheets
 
-This is advance version of jstiktok. In this script we had used Google sheets for hosting data instead of typing a json file you can just create a Google form and add new videos to your website ❣️🇮🇳
+This is advance version of [jstiktok](https://github.com/SH20RAJ/JSTikTok). In this script we had used Google sheets for hosting data instead of typing a json file you can just create a Google form and add new videos to your website ❣️🇮🇳
 
 <img src='https://pbs.twimg.com/media/FEZ9rXVVEAAPeim?format=jpg&name=large'>
 
